@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "name": "inputTheBIRB",
+    "maps": [
+        {
+            "name": "YIPPEE!!!",
+            "id": "65dc8f73-0e4e-4800-979c-6c9945ef40bf",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5457c56d-1c30-444e-85e3-04735917cb0c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0568f090-23fa-4973-96c3-473869aa3114",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1588a1cb-a816-4a8f-b0fa-1f418c20b662",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
